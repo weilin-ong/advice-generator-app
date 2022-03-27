@@ -1,0 +1,92 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(218, 23%, 16%);
+  font-family: 'Manrope', sans-serif;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.advice-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+  width: 80vh;
+  text-align: center;
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 10px;
+}
+
+#advice-id {
+  height: 20%;
+  padding-top: 50px;
+  color: hsl(150, 100%, 66%);
+  word-spacing: 10px;
+  letter-spacing: 2px;
+}
+
+#advice-content {
+  height: 50%;
+  padding: 30px;
+  padding-top: 50px;
+  color: hsl(193, 38%, 86%);
+  font-size: 28px;
+}
+
+.line-break {
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  color: hsl(193, 38%, 86%);
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: hsl(217, 19%, 38%);
+  width: 250px;
+  margin: 30px;
+}
+
+#advice-btn {
+  position: absolute;
+  bottom: 5px;
+  height: 5%;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  height: 50px;
+  width: 50px;
+  background-color: hsl(150, 100%, 66%);
+}
+
+.btn:hover {
+  background-color: hsl(151, 100%, 92%);
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
